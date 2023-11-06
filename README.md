@@ -18,7 +18,7 @@ A Virtual Switch (VSwitch) is a subnet within your VPC. You can create multiple 
 1. Create a subnet in Zone A and name it (app-xyz-a)
 2. Create a subnet in Zone B and name it (app-xyz-b)
 
-**Step 3: Verify Your VSwitch connection**
+**Step 3: Verify Your VSwitchs connection**
 
 After creating the 2 ECS Instance  try to ping the other instance 
 
@@ -27,5 +27,5 @@ After creating the 2 ECS Instance  try to ping the other instance
 
 ## Submission:
 
-- After finishing the tasks take screen shot of newly create VPC basic information and  the ping command response.
+- After finishing the tasks take screen shot of newly create VPC basic information and vswitchs details the ping command response.
 - Then upload the pictures to the forked repo and then create a pull request.
