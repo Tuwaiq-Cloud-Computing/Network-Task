@@ -11,14 +11,14 @@ A Virtual Private Cloud (VPC) is a virtual network dedicated to your Alibaba Clo
 
 Create a VPC name it (Lab-VPC) in Riyadh Region, make sure the IPv4 CIDR Block you choose can have only (16) subnet and each subnet can have (512) IP
 
-**Step 2: Create a VSwitch**
+**Task 2: Create a VSwitch**
 
 A Virtual Switch (VSwitch) is a subnet within your VPC. You can create multiple VSwitches within a VPC to segment your network.
 
 1. Create a subnet in Zone A and name it (app-xyz-a)
 2. Create a subnet in Zone B and name it (app-xyz-b)
 
-**Step 3: Verify Your VSwitchs connection**
+**Task 3: Verify Your VSwitchs connection**
 
 After creating the 2 ECS Instance  try to ping the other instance 
 
